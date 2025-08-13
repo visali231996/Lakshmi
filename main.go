@@ -1,0 +1,65 @@
+package main
+
+import (
+	"fmt"
+
+	"lakshmi/multi"
+)
+
+func main() {
+	var a int = 4
+	var s string = "goog"
+
+	var f float32 = 4.44
+	var arr [4]int
+	fmt.Println("values of a ,s ,f are ", a, ",", s, ",", f)
+	fmt.Println(" 5 Multiples of 4 is equal to", multi.Mul(5, 4))
+
+	//..............................for.........................//
+	for i := 0; i < a; i++ {
+		arr[i] = i
+	}
+	fmt.Println(arr)
+
+	//..............................if..................//
+	if a%2 == 0 {
+		fmt.Println("a is even number")
+	} else {
+		fmt.Println("a is oddd number")
+	}
+
+	//...........................switch case....................//
+	fmt.Println("Rainbow Colors")
+	u := "v"
+	switch u {
+	case "v":
+		fmt.Println("Violet")
+		fallthrough
+	case "i":
+		fmt.Println("Indigo")
+		fallthrough
+	case "b":
+		fmt.Println("Blue")
+		fallthrough
+	case "g":
+		fmt.Println("Green")
+		fallthrough
+	case "o":
+		fmt.Println("Orange")
+		fallthrough
+	default:
+		fmt.Println("Red")
+	}
+
+	//.......................defer..................................................//
+	for i := 5; i > 0; i-- {
+		defer fmt.Println(i)
+	}
+
+	//......................pointers..............................................//
+	q := 10
+	p := &s
+	h := *p
+	fmt.Println(q, p, h)
+
+}
