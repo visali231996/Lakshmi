@@ -21,7 +21,7 @@ func Factorial() {
 }
 func Wordcount() {
 	var p string
-	p="go lang go lang"
+	p = "go lang go lang"
 	m := make(map[string]int)
 	words := strings.Fields(p)
 	for _, i := range words {

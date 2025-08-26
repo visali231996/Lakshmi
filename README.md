@@ -14,4 +14,7 @@ method....is having same usage as function but
 
 what is in this repositiry:
 In main.go:
-i have done the declarations of all data types(int,char,float 32).i also used different loops like for loop, switch case. used defer to print those at the last.
+1.i have done the declarations of all data types(int,char,float 32).i also used different loops like for loop, switch case. used defer to print those at the last.
+2. i used examples for for loop,switch and if statements
+3.i used pointer examples
+4. i have created an arraysl
