@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-
 	"lakshmi/multi"
+	"time"
 )
 
 func main() {
@@ -61,5 +61,21 @@ func main() {
 	p := &s
 	h := *p
 	fmt.Println(q, p, h)
+
+	multi.Disp()
+
+	multi.Dispp()
+	multi.Factorial()
+	multi.Wordcount()
+	multi.Fibonocci()
+	multi.Palindrome()
+
+	//..........go routines
+	go multi.Gethindi("नमस्ते (Namaste)")
+	go multi.Getspanish("Hola")
+	go multi.Gettelugu("హలో (Halo)")
+	go multi.Gettamil("வணக்கம் (Vanakkam)")
+
+	time.Sleep(3 * time.Second)
 
 }

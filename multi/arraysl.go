@@ -1,4 +1,4 @@
-package main
+package multi
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ type address struct {
 	pincode, phonenum                       int64
 }
 
-func main() {
+func Disp(){
 	var ar [3]string
 	ar[0] = "HeyBeautiful"
 	fmt.Println(ar, "\n")

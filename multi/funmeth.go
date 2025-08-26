@@ -1,4 +1,4 @@
-package main
+package multi
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ type student struct {
 	schoolid, marks, rank int16
 }
 
-func main() {
+func Dispp() {
 	//creating map to count the repitive words in a string
 	text := "Dont trouble the trouble, if you trouble the trouble, the trouble trouble you more trouble"
 	words := strings.Fields(text)
