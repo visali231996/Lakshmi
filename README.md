@@ -31,4 +31,11 @@ slices.........having variable capacity..can be used when we dont knpow the exac
 method....is having same usage as function but 
 
 channel.....
+declarations:  var Channel_name chan Type or channel_name:= make(chan Type)
+
+select statement: are mainly used in channels
+select {
+case v1: <-c1
+
+
 
