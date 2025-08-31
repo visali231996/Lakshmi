@@ -15,6 +15,7 @@ int: 0
 string:
 float32:0.0000000
 boolean:false
+fmt.Println("type of the string %T\n",variablename)
 
 ARRAY.......This datatype is having fixed capacity storing same data values....used for matrix creations, game boards, storing exam scores
 slices.........having variable capacity..can be used when we dont knpow the exact quantity,... in case of college admissions..noting  seismic waves,weather conditions
