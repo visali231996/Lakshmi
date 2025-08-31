@@ -1,3 +1,12 @@
+what is in this repositiry:
+In main.go:
+1.i have done the declarations of all data types(int,char,float 32).i also used different loops like for loop, switch case. used defer to print those at the last.
+2. i used examples for for loop,switch and if statements
+3.i used pointer examples
+4. i have created an arrays,structures and slices
+5. i have called all the functions in the another folder
+
+
 datatype declaration:
 var a int=6 or a:=6
 as:="fqef"
@@ -21,9 +30,5 @@ ARRAY.......This datatype is having fixed capacity storing same data values....u
 slices.........having variable capacity..can be used when we dont knpow the exact quantity,... in case of college admissions..noting  seismic waves,weather conditions
 method....is having same usage as function but 
 
-what is in this repositiry:
-In main.go:
-1.i have done the declarations of all data types(int,char,float 32).i also used different loops like for loop, switch case. used defer to print those at the last.
-2. i used examples for for loop,switch and if statements
-3.i used pointer examples
-4. i have created an arraysl
+channel.....
+
