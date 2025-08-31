@@ -7,6 +7,14 @@ cndition}
 for i:=range 10{condition}
 defer fmt.Println("dfsrtgrtfb")
 
+Identifier or variable:
+declaration: var variablename type= value  or variablename:=value
+variablename:=value..........can not be declared globally
+default values:
+int: 0
+string:
+float32:0.0000000
+boolean:false
 
 ARRAY.......This datatype is having fixed capacity storing same data values....used for matrix creations, game boards, storing exam scores
 slices.........having variable capacity..can be used when we dont knpow the exact quantity,... in case of college admissions..noting  seismic waves,weather conditions
