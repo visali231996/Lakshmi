@@ -6,7 +6,6 @@ In main.go:
 4. i have created an arrays,structures and slices
 5. i have called all the functions in the another folder
 
-
 datatype declaration:
 var a int=6 or a:=6
 as:="fqef"
