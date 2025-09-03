@@ -33,8 +33,22 @@ channel.....
 declarations:  var Channel_name chan Type or channel_name:= make(chan Type)
 
 select statement: are mainly used in channels
+
 select {
 case v1: <-c1
+case v2:<-c2
+}
 
-
-
+SQL Commands
+•	SELECT * FROM Tablename;
+•	SELECT DISTINCT colname FROM Tablename ;--- gives only distinct col values from table
+•	SELECT COUNT(DISTINCT Country) FROM Customers;-----counts didtinct countries from table
+•	SELECT  * FROM customers WHERE orderid>60
+•	SELECT * FROM Customers OREDER BY price DESC
+•	SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+•	SELECT * FROM Customers
+WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName LIKE 'R%');
+•	SELECT * FROM Customers
+WHERE NOT Country = 'Spain';
